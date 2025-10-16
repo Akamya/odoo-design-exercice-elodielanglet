@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 // Colors
-$primary: #038aff;
-$secondary: #161348;
+$bleu: #038aff;
+$bleumarine: #161348;
 $yellow: #ffb93c;
 $green: #58cca7;
 $bg-body: #ffffff;
@@ -24,20 +24,3 @@ $border-radius-lg: 1rem;
 
 // Shadows
 $box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-
-// Color map
-$theme-colors: (
-  primary: $primary,
-  secondary: $secondary,
-  yellow: $yellow,
-  green: $green,
-);
-
-@each $name, $color in $theme-colors {
-  .bg-#{$name} {
-    background-color: $color;
-  }
-  .text-#{$name} {
-    color: $color;
-  }
-}
