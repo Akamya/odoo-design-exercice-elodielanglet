@@ -1,0 +1,96 @@
+.card-bottom-right {
+  border-bottom-right-radius: 4rem !important;
+}
+
+.bank-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bank-card {
+  width: 100%;
+  max-width: 30rem;
+  border-radius: 0.5rem;
+  padding: 1.1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(7, 16, 33, 0.18);
+  color: #fff;
+  background: linear-gradient(135deg, $bleumarine 0%, #221f5e 100%);
+  font-family: $font-family-base, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+/* Top row: chip + brand */
+.bank-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Chip */
+.bank-card .chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.75rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  background: $green;
+  font-size: 0.7rem !important;
+}
+
+/* Card number */
+.bank-card .card-number {
+  font-size: 1.25rem;
+  letter-spacing: 0.125rem;
+  font-weight: 600;
+  text-shadow: 0 0.06rem 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-above-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+/* Bottom row */
+.bank-card .card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+/* labels */
+.bank-card .label {
+  font-size: 0.625rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+  margin-bottom: 0.25rem;
+}
+
+/* values (holder, expiry) */
+.bank-card .value {
+  font-weight: 700;
+  font-size: 0.55rem;
+  letter-spacing: 0.04rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 36rem) {
+  .bank-card {
+    padding: 0.875rem;
+    border-radius: 0.75rem;
+  }
+  .bank-card .card-number {
+    font-size: 1rem;
+  }
+  .bank-card .chip {
+    width: 2.5rem;
+    height: 1.625rem;
+  }
+}

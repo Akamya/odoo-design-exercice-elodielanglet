@@ -1,2 +1,24 @@
 @import "./variables";
+@import "./bank-card";
 @import "bootstrap/scss/bootstrap";
+
+.my-narrow-container {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-hero {
+  background-color: $bleu;
+  clip-path: polygon(
+    0 0,
+    // top left
+    100% 0,
+    // top right
+    100% 90%,
+    // bottom right
+    0 100%,
+    // bottom left
+  );
+  padding-bottom: 10rem;
+}

@@ -8,65 +8,173 @@
   </head>
   <body>
     <div id="app"></div>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md">
-      <div class="container-xxl">
-        <a class="navbar-brand" href="home">Logo</a>
-        <!-- Toggle button for mobile nav -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#main-nav"
-          aria-controls="main-nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
+    <!-- Nav + Container -->
+    <section class="header-hero">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md">
         <div
-          class="collapse navbar-collapse justify-content-end align-items-center"
-          id="main-nav"
+          class="container my-narrow-container border-bottom border-white pb-2 border-opacity-25"
         >
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#hero">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#intro">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#awards">Pages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faq">App</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faq">Docs</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Hero -->
-    <section id="hero">
-      <div class="container">
-        <h1>Title goes here</h1>
+          <a class="navbar-brand" href="home">Logo</a>
 
-        <p>Subtitle / description</p>
-      </div>
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-center order-md-2"
+            id="main-nav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#intro">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#awards">Pages</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#faq">App</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">Docs</a></li>
+
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#">Sign in</a>
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="btn btn-primary w-100 mt-2" href="#">Buy now</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-none d-md-flex align-items-center ms-auto order-md-3">
+            <a class="nav-link me-3" href="#">Sign in</a>
+            <a class="btn btn-primary" href="#">Buy now</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section id="hero">
+        <div class="container my-narrow-container">
+          <div class="row align-items-center">
+            <!-- 1st column -->
+            <div class="col-6">
+              <h1>Development done right</h1>
+              <p class="lead">
+                Build a beautiful, modern website with flexible components built
+                from scratch.
+              </p>
+              <button class="btn btn-primary mt-3">Get started</button>
+              <div class="mt-4">
+                <span class="text-muted me-2">Trusted by:</span>
+                <img
+                  src="google-white.svg"
+                  alt="Google logo"
+                  height="20"
+                  class="me-2"
+                />
+                <img
+                  src="spotify-white.svg"
+                  alt="Spotify logo"
+                  height="20"
+                  class="me-2"
+                />
+                <img src="airbnb-white.svg" alt="Airbnb logo" height="20" />
+                <img src="paypal-white.svg" alt="Paypal logo" height="20" />
+              </div>
+            </div>
+
+            <!-- 2nd column - Bank Card -->
+            <div class="col-6 d-flex justify-content-center">
+              <div class="card p-3 mb-4 card-bottom-right">
+                <div class="d-flex justify-content-between gap-2">
+                  <p class="mb-0">Manage cards</p>
+                  <button class="btn btn-primary">Add new</button>
+                </div>
+                <div class="bank-card-wrapper">
+                  <div class="bank-card" aria-label="Carte bancaire exemple">
+                    <div class="card-top">
+                      <div class="brand">
+                        <img
+                          src="mastercard.svg"
+                          alt="Mastercard logo"
+                          width="56"
+                          height="20"
+                        />
+                      </div>
+                      <div class="chip text-center" aria-hidden="true">
+                        Active
+                      </div>
+                    </div>
+
+                    <div class="card-above-number">
+                      <div class="card-holder">
+                        <div class="label">card number</div>
+                      </div>
+                    </div>
+
+                    <div class="card-number" aria-hidden="false">
+                      4358 - 7421 - 9256 - 6682
+                    </div>
+
+                    <div class="card-bottom">
+                      <div class="card-holder">
+                        <div class="label">NAME</div>
+                        <div class="value">John Snow</div>
+                      </div>
+                      <div class="card-expiry">
+                        <div class="label">Expiry Date</div>
+                        <div class="value">11/23</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-3 d-flex justify-content-between">
+                  <h5 class="mb-1">Starbucks</h5>
+                  <span class="text-muted">$5,50 USD</span>
+                </div>
+                <p
+                  class="mb-0 text-muted small border-bottom border-gray pb-2 border-opacity-25"
+                >
+                  Pending - San Francisco, United States
+                </p>
+
+                <div class="mt-3 d-flex justify-content-between">
+                  <h5 class="mb-1">Nike Sports</h5>
+                  <span class="text-muted">$129,00 USD</span>
+                </div>
+                <p
+                  class="mb-0 text-muted small border-bottom border-gray pb-2 border-opacity-25"
+                >
+                  Pending - Lisbon, Portugal
+                </p>
+                <div class="mt-3">
+                  <a href="#" class="text-decoration-none">View all →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
+
     <!-- Intro -->
     <section id="intro">
-      <div class="container">
+      <div class="container my-narrow-container">
         <h1>Title goes here</h1>
         <p>Subtitle / description</p>
       </div>
     </section>
     <!-- Awards -->
     <section id="awards">
-      <div class="container">
+      <div class="container my-narrow-container">
         <div class="row">
           <div class="col-md-4">Box 1</div>
           <div class="col-md-4">Box 2</div>
@@ -76,14 +184,14 @@
     </section>
     <!-- FAQ -->
     <section id="faq">
-      <div class="container">
+      <div class="container my-narrow-container">
         <h1>Title goes here</h1>
         <p>Subtitle / description</p>
       </div>
     </section>
     <!-- Footer -->
     <footer>
-      <div class="container">
+      <div class="container my-narrow-container">
         <h1>Title goes here</h1>
         <p>Subtitle / description</p>
       </div>
