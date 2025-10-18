@@ -115,3 +115,20 @@
   transform: translateY(-5px) scale(1.03);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
+// Footer
+.bg-footer {
+  background-color: $bleumarine;
+  clip-path: polygon(
+    0 20%,
+    // top left
+    100% 0,
+    // top right
+    100% 100%,
+    // bottom right
+    0 100%,
+    // bottom left
+  );
+  padding-top: 8rem;
+  margin-top: 10rem;
+}
