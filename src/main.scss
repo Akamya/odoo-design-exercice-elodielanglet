@@ -87,3 +87,22 @@
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
+
+// Awards
+.bg-awards {
+  background-color: $bg-section;
+  clip-path: polygon(
+    0 0,
+    // top left
+    100% 0,
+    // top right
+    100% 90%,
+    // bottom right
+    0 100%,
+    // bottom left
+  );
+  padding-bottom: 10rem;
+  padding-top: 3rem;
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+}
