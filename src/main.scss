@@ -79,3 +79,11 @@
 .profile-pics-img img:last-child {
   margin: 0;
 }
+
+// Banner in intro
+.darkblue-box {
+  background-color: $bleumarine;
+  color: white;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
