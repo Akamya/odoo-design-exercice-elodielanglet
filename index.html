@@ -74,11 +74,10 @@
             class="d-none d-md-flex align-items-center ms-auto order-md-3 nav-hover"
           >
             <a class="nav-link me-3" href="#">Sign in</a>
-            <a class="btn btn-light btn-custom" href="#"
-              ><ion-icon
-                name="bag-handle-outline"
-                class="text-primary"
-              ></ion-icon
+            <a class="btn btn-light btn-custom" href="#">
+              <i
+                class="fa-solid fa-bag-shopping text-primary me-1 icon-left fa-sm"
+              ></i
               >Buy now</a
             >
           </div>
@@ -90,15 +89,22 @@
         <div class="container my-narrow-container">
           <div class="row align-items-center">
             <!-- 1st column -->
-            <div class="col-6">
+            <div class="col-6 text-white">
               <h1>Development done right</h1>
               <p class="lead">
                 Build a beautiful, modern website with flexible components built
                 from scratch.
               </p>
-              <button class="btn btn-primary mt-3">Get started</button>
-              <div class="mt-4">
-                <span class="text-muted me-2">Trusted by:</span>
+              <button
+                class="btn btn-light btn-custom mt-3 d-inline-flex align-items-center"
+              >
+                Get started
+                <i class="fa-solid fa-plus ms-2 fa-xs"></i>
+              </button>
+              <div class="mt-5">
+                <span class="me-2 fs-6 mb-0 text-light fw-light"
+                  >Trusted by:</span
+                >
                 <img
                   src="google-white.svg"
                   alt="Google logo"
@@ -111,20 +117,34 @@
                   height="20"
                   class="me-2"
                 />
-                <img src="airbnb-white.svg" alt="Airbnb logo" height="20" />
-                <img src="paypal-white.svg" alt="Paypal logo" height="20" />
+                <img
+                  src="airbnb-white.svg"
+                  alt="Airbnb logo"
+                  height="20"
+                  class="me-2"
+                />
+                <img
+                  src="paypal-white.svg"
+                  alt="Paypal logo"
+                  height="20"
+                  class="me-2"
+                />
               </div>
             </div>
 
             <!-- 2nd column - Bank Card -->
-            <div class="col-6 d-flex justify-content-center">
+            <div class="col-6 d-flex justify-content-center mt-5">
               <div class="card p-3 mb-4 card-bottom-right">
-                <div class="d-flex justify-content-between gap-2">
+                <div class="d-flex justify-content-between gap-2 mb-3">
                   <p class="mb-0">Manage cards</p>
-                  <button class="btn btn-primary">Add new</button>
+                  <button
+                    class="btn btn-light btn-sm px-2 py-1 border shadow-sm fs-7"
+                  >
+                    Add new
+                  </button>
                 </div>
                 <div class="bank-card-wrapper">
-                  <div class="bank-card" aria-label="Carte bancaire exemple">
+                  <div class="bank-card" aria-label="Bank card example">
                     <div class="card-top">
                       <div class="brand">
                         <img
@@ -139,22 +159,24 @@
                       </div>
                     </div>
 
-                    <div class="card-above-number">
-                      <div class="card-holder">
-                        <div class="label">card number</div>
+                    <div>
+                      <div class="card-above-number">
+                        <div>
+                          <div class="label">card number</div>
+                        </div>
+                      </div>
+
+                      <div class="card-number" aria-hidden="false">
+                        4358 - 7421 - 9256 - 6682
                       </div>
                     </div>
 
-                    <div class="card-number" aria-hidden="false">
-                      4358 - 7421 - 9256 - 6682
-                    </div>
-
-                    <div class="card-bottom">
-                      <div class="card-holder">
+                    <div class="card-bottom w-75">
+                      <div>
                         <div class="label">NAME</div>
-                        <div class="value">John Snow</div>
+                        <div class="value fs-6-5">John Snow</div>
                       </div>
-                      <div class="card-expiry">
+                      <div>
                         <div class="label">Expiry Date</div>
                         <div class="value">11/23</div>
                       </div>
@@ -163,8 +185,8 @@
                 </div>
 
                 <div class="mt-3 d-flex justify-content-between">
-                  <h5 class="mb-1">Starbucks</h5>
-                  <span class="text-muted">$5,50 USD</span>
+                  <h5 class="mb-1 fs-6">Starbucks</h5>
+                  <span class="text-muted fs-7 fw-bold">$5,50 USD</span>
                 </div>
                 <p
                   class="mb-0 text-muted small border-bottom border-gray pb-2 border-opacity-25"
@@ -173,8 +195,8 @@
                 </p>
 
                 <div class="mt-3 d-flex justify-content-between">
-                  <h5 class="mb-1">Nike Sports</h5>
-                  <span class="text-muted">$129,00 USD</span>
+                  <h5 class="mb-1 fs-6">Nike Sports</h5>
+                  <span class="text-muted fs-7 fw-bold">$129,00 USD</span>
                 </div>
                 <p
                   class="mb-0 text-muted small border-bottom border-gray pb-2 border-opacity-25"
@@ -182,7 +204,7 @@
                   Pending - Lisbon, Portugal
                 </p>
                 <div class="mt-3">
-                  <a href="#" class="text-decoration-none">View all →</a>
+                  <a href="#" class="dotted-underline small">View all ›</a>
                 </div>
               </div>
             </div>
@@ -799,11 +821,12 @@
           <!-- Buttons -->
           <div class="col-md-6 d-flex justify-content-md-end gap-3">
             <a href="#" class="btn btn-light btn-custom"
-              ><ion-icon name="document-outline" class="text-primary"></ion-icon
+              ><i class="fa-solid fa-book text-primary me-1 icon-left fa-sm"></i
               >Documentation</a
             >
             <a href="#" class="btn btn-primary btn-custom"
-              ><ion-icon name="bag-handle-outline"></ion-icon>Buy now</a
+              ><i class="fa-solid fa-bag-shopping me-1 icon-left fa-sm"></i>Buy
+              now</a
             >
           </div>
         </div>
