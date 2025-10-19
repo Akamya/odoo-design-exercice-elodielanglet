@@ -231,9 +231,9 @@
                     class="img-fluid border shadow-sm rounded"
                   />
                   <button
-                    class="btn btn-light btn-play-custom btn-sm border shadow-sm fs-7 small px-2 py-1"
+                    class="btn btn-light btn-play-custom-right btn-sm border shadow-sm fs-7 small px-2 py-1"
                   >
-                    Play Video <i class="fa-solid fa-play ms-1 fa-xs"></i>
+                    Play video <i class="fa-solid fa-play ms-1 fa-xs"></i>
                   </button>
                 </figure>
               </div>
@@ -294,72 +294,83 @@
         </div>
 
         <!-- Row 2 -->
-        <div class="row align-items-center mb-5">
+        <div class="row align-items-center mt-5 mb-5">
           <!-- Left column -->
-          <div class="col-md-6">
+          <div class="col-md-6 ps-5">
             <h6
-              class="tools-title d-inline-block px-3 py-1 text-white rounded bg-success"
+              class="d-inline-block px-2 py-1 text-white fs-7 rounded-pill bg-success"
             >
               Features
             </h6>
-            <p class="mt-3 mb-2 fs-5">
+            <p class="mt-2 mb-4 fs-5">
               Get components and examples, including tons of variables that will
               help you grow your business.
             </p>
             <ul class="list-unstyled">
               <li class="d-flex align-items-center mb-2 text-success">
-                <i class=""></i> Perfect for modern startups
+                <i class="fa-solid fa-square-check me-2 icon-left"></i>
+                Perfect for modern startups
               </li>
               <li class="d-flex align-items-center mb-2 text-success">
-                <i class=""></i> Fully customizable and scalable
+                <i class="fa-solid fa-square-check me-2 icon-left"></i>
+                Fully customizable and scalable
               </li>
             </ul>
           </div>
           <!-- Right column -->
           <div class="col-md-6">
-            <img
-              src="img_02.jpg"
-              alt="2 people collaborating in front of a laptop"
-              class="img-fluid"
-            />
+            <figure class="position-relative">
+              <img
+                src="img_02.jpg"
+                alt="2 people collaborating in front of a laptop"
+                class="img-fluid border shadow-sm rounded"
+              />
+              <button
+                class="btn btn-light btn-play-custom-left btn-sm border shadow-sm fs-7 small px-2 py-1"
+              >
+                Play video <i class="fa-solid fa-play ms-1 fa-xs"></i>
+              </button>
+            </figure>
           </div>
         </div>
 
         <!-- Row 3 -->
-        <div class="row align-items-center mb-5">
+        <div class="row align-items-center mt-5 mb-5">
           <!-- Left column -->
           <div class="col-md-6">
             <div class="row g-2">
               <!-- Column 1 (cards stacked vertically) -->
               <div class="col-6 d-flex flex-column gap-2">
-                <div class="card mt-5">
+                <div class="card mt-5 border shadow-sm">
                   <img
                     src="person_03.jpg"
-                    class="card-img-top"
+                    class="card-img-top img-fluid"
                     alt="Picture of a man"
                   />
                   <div
                     class="card-body d-flex align-items-center justify-content-between"
                   >
-                    <div
-                      class="bg-warning rounded-circle d-flex align-items-center justify-content-center round-icon"
-                    >
-                      JH
+                    <div class="d-flex align-items-center">
+                      <div
+                        class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-2 round-icon-1"
+                      >
+                        JH
+                      </div>
+                      <span class="small">Jimmy Hendrix</span>
                     </div>
-                    <span class="ms-2 flex-grow-1">Jimmy Hendrix</span>
-                    <i class=""></i>
+                    <i class="fa-regular fa-heart"></i>
                   </div>
                 </div>
 
-                <div class="card mb-5">
+                <div class="card mb-5 border shadow-sm">
                   <div class="card-body d-flex align-items-center p-2">
                     <div
-                      class="bg-success rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 round-icon"
+                      class="bg-success rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 round-icon-2"
                     >
-                      <i class=""></i>
+                      <i class="fa-solid fa-check fa-xs"></i>
                     </div>
                     <div class="ms-3">
-                      <p class="mb-0 fw-bold">300+ components</p>
+                      <p class="mb-0 fs-6">300+ components</p>
                       <p
                         class="mb-0 text-muted small"
                         style="font-size: 0.75rem"
@@ -373,43 +384,52 @@
 
               <!-- Column 2 (cards stacked vertically, independent) -->
               <div class="col-6 d-flex flex-column gap-2">
-                <div class="card tall-top-card">
+                <div class="card tall-top-card border shadow-sm">
                   <div
                     class="card-body d-flex flex-column align-items-center justify-content-center p-3"
                   >
                     <img
                       src="airbnb.svg"
                       alt="Airbnb logo"
-                      class="img-fluid mb-2"
-                      style="max-width: 80px"
+                      class="img-fluid mb-2 small-logo"
                     />
-                    <i class=""></i>
-                    <p class="mb-1 fw-bold">4.95 out of 5 stars</p>
+                    <div class="d-flex mt-2 mb-2">
+                      <i class="fa-regular fa-star text-warning me-1"></i>
+                      <i class="fa-regular fa-star text-warning me-1"></i>
+                      <i class="fa-regular fa-star text-warning me-1"></i>
+                      <i class="fa-regular fa-star text-warning me-1"></i>
+                      <i
+                        class="fa-regular fa-star text-warning text-opacity-25"
+                      ></i>
+                    </div>
+                    <p class="fs-6 mt-2 mb-2">4.95 out of 5 stars</p>
                     <p class="mb-0 text-muted small">from 23 reviews</p>
                   </div>
                 </div>
 
-                <div class="card tall-bottom-card">
+                <div class="card tall-bottom-card border shadow-sm">
                   <div
                     class="card-body d-flex flex-column align-items-center justify-content-center p-3"
                   >
                     <img
                       src="company_01.png"
                       alt="Airbnb logo"
-                      class="img-fluid mb-2 rounded-circle round-icon"
+                      class="img-fluid mb-2 rounded-circle round-icon-3"
                     />
-                    <p class="mb-1 fw-bold">Website UI Kit</p>
+                    <p class="mb-2">Website UI Kit</p>
                     <div class="profile-pics">
-                      <div class="profile-pics-img">
+                      <div class="profile-pics-img border-opacity-10 pb-3 mb-1">
                         <img src="person_01.jpg" alt="Profile picture" />
                         <img src="person_02.jpg" alt="Profile picture" />
                         <img src="person_03.jpg" alt="Profile picture" />
                       </div>
                     </div>
-                    <div class="d-flex justify-content-start gap-3 mt-2">
-                      <i class="">i</i>
-                      <i class="">i</i>
-                      <i class="">i</i>
+                    <div
+                      class="d-flex justify-content-start gap-3 mt-2 text-muted small fs-7"
+                    >
+                      <i class="fa-solid fa-paperclip"></i>
+                      <i class="fa-regular fa-eye"></i>
+                      <i class="fa-regular fa-heart"></i>
                     </div>
                   </div>
                 </div>
@@ -420,19 +440,23 @@
           <!-- Right column -->
           <div class="col-md-6 ps-5">
             <h6
-              class="tools-title d-inline-block px-3 py-1 text-white rounded bg-primary"
+              class="d-inline-block px-2 py-1 text-white fs-7 rounded-pill bg-primary"
             >
               Technology
             </h6>
-            <p class="mt-3 mb-2 fs-5">
+            <p class="mt-2 mb-2 fs-4">
               We use the latest technologies on the market
             </p>
-            <p class="text-muted small mb-0">
+            <p class="text-muted small">
               Get components and examples, including tons of variables that will
               help you grow your business.
             </p>
             <div class="mt-3">
-              <a href="#" class="text-decoration-none">See case studies</a>
+              <a
+                href="#"
+                class="text-decoration-none border-bottom border-3 pb-1 border-primary small"
+                >See case studies</a
+              >
             </div>
           </div>
         </div>

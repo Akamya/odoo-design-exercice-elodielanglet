@@ -57,13 +57,22 @@
   background-color: rgb(221, 221, 221);
 }
 
-.btn-play-custom {
+.btn-play-custom-right {
   background-color: #ffffff;
   border-radius: 0.25rem !important;
   position: absolute;
   z-index: 2;
   top: 8%;
   right: 5%;
+}
+
+.btn-play-custom-left {
+  background-color: #ffffff;
+  border-radius: 0.25rem !important;
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  left: 5%;
 }
 
 .custom-position-relative {
@@ -80,10 +89,22 @@
   left: 43%;
 }
 
-.round-icon {
+.round-icon-1 {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.round-icon-2 {
   width: 2.5rem;
   height: 2.5rem;
   color: white;
+}
+
+.round-icon-3 {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .tall-top-card {
@@ -92,6 +113,10 @@
 
 .tall-bottom-card {
   height: 18rem;
+}
+
+.small-logo {
+  max-width: 5rem;
 }
 
 // The triple little profile pics in Intro row 3
