@@ -9,6 +9,25 @@
   margin-right: auto;
 }
 
+.general-font {
+  font-family: $font-family-base;
+}
+
+.btn-custom {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem !important;
+}
+
+ion-icon {
+  padding-right: 0.5rem;
+  font-weight: 700;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
 // Hero
 .header-hero {
   background-color: $bleu;
@@ -120,7 +139,7 @@
 .bg-footer {
   background-color: $bleumarine;
   clip-path: polygon(
-    0 20%,
+    0 13%,
     // top left
     100% 0,
     // top right
@@ -131,4 +150,10 @@
   );
   padding-top: 8rem;
   margin-top: 10rem;
+}
+
+.footer-hover a:hover,
+.footer-hover a:hover ion-icon {
+  color: $bleu !important;
+  transition: color 0.3s ease;
 }

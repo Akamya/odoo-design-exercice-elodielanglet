@@ -5,8 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odoo Design Exercice - Elodie Langlet</title>
+    <script
+      src="https://kit.fontawesome.com/a1f5a497c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
-  <body>
+  <body class="general-font">
     <div id="app"></div>
     <!-- Nav + Container -->
     <section class="header-hero">
@@ -756,175 +768,211 @@
 
     <!-- Footer -->
     <footer class="bg-footer">
-      <div class="container my-narrow-container text-white">
+      <div class="container my-narrow-container text-white footer-hover">
         <!-- Row 1 -->
-        <div class="row mb-4 align-items-center" id="footer-row-1">
+        <div
+          class="row mb-4 align-items-center border-bottom border-success p-2 pb-4 border-opacity-10"
+          id="footer-row-1"
+        >
           <div class="col-md-6 mb-3 mb-md-0">
-            <h2 class="fs-4 mb-1 fw-bold">
+            <h2 class="fs-4 mb-1 fw-normal">
               Brilliant solutions for your ideas
             </h2>
-            <p class="fs-6 mb-0">Modern-looking websites.</p>
+            <p class="fs-7 mb-0 text-light fw-light">
+              Modern-looking websites.
+            </p>
           </div>
           <!-- Buttons -->
           <div class="col-md-6 d-flex justify-content-md-end gap-3">
-            <a href="#" class="btn btn-outline-light btn-sm">Documentation</a>
-            <a href="#" class="btn btn-primary btn-sm">Purchase now</a>
+            <a href="#" class="btn btn-light btn-custom"
+              ><ion-icon name="document-outline" class="text-primary"></ion-icon
+              >Documentation</a
+            >
+            <a href="#" class="btn btn-primary btn-custom"
+              ><ion-icon name="bag-handle-outline"></ion-icon>Buy now</a
+            >
           </div>
         </div>
 
         <!-- Row 2 -->
-        <div class="row mb-4" id="footer-row-2">
-          <!-- Row 2 -->
-          <div class="row mb-4" id="footer-row-2">
-            <div class="col-md-6 mb-4 mb-md-0">
-              <!-- Logo -->
-              <img
-                src="odoo-white.svg"
-                alt="Odoo Logo"
-                class="mb-3"
-                style="max-width: 150px"
-              />
-
-              <!-- Text -->
-              <p>
+        <div
+          class="row mb-4 border-bottom border-success p-2 pb-4 border-opacity-10"
+          id="footer-row-2"
+        >
+          <div class="col-md-6 mb-4 mb-md-0">
+            <!-- Logo -->
+            <img
+              src="odoo-white.svg"
+              alt="Odoo Logo"
+              class="mb-3 img-fluid w-25"
+            />
+            <div class="w-75">
+              <p class="fs-7 mb-0 text-light fw-light">
                 Odoo attempts to bring the best development experience to
                 designers and developers by offering the tools needed for having
                 a quick and solid start in most web projects.
               </p>
-
-              <!-- Social media -->
-              <div class="d-flex gap-3 mt-3">
-                <a href="#"
-                  ><img
-                    src="icon-facebook.svg"
-                    alt="Facebook icon"
-                    class="img-fluid"
-                    style="width: 24px"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="icon-twitter.svg"
-                    alt="Twitter icon"
-                    class="img-fluid"
-                    style="width: 24px"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="icon-linkedin.svg"
-                    alt="LinkedIn icon"
-                    class="img-fluid"
-                    style="width: 24px"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="icon-instagram.svg"
-                    alt="Instagram icon"
-                    class="img-fluid"
-                    style="width: 24px"
-                /></a>
-              </div>
             </div>
 
-            <!-- Right Column -->
-            <div class="col-md-6">
-              <div class="row">
-                <!-- Account -->
-                <div class="col-4">
-                  <h5 class="fw-bold text-white mb-3">Account</h5>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Profile</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Settings</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Billing</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Logout</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+            <!-- Social media -->
+            <div class="d-flex gap-3 mt-3 w-75">
+              <a href="#"
+                ><ion-icon name="logo-dribbble" class="text-white"></ion-icon
+              ></a>
+              <a href="#"
+                ><ion-icon name="logo-github" class="text-white"></ion-icon
+              ></a>
+              <a href="#"
+                ><ion-icon name="logo-instagram" class="text-white"></ion-icon
+              ></a>
+              <a href="#"
+                ><ion-icon name="logo-facebook" class="text-white"></ion-icon
+              ></a>
+            </div>
+          </div>
 
-                <!-- About -->
-                <div class="col-4">
-                  <h5 class="fw-bold text-white mb-3">About</h5>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Team</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Projects</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Blog</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Careers</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+          <!-- Right Column -->
+          <div class="col-md-6">
+            <div class="row">
+              <!-- Account -->
+              <div class="col-4">
+                <h5
+                  class="fw-bold mb-3 fs-6 text-light fw-light text-decoration-none"
+                >
+                  Account
+                </h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Profile</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Settings</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Billing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Notifications</a
+                    >
+                  </li>
+                </ul>
+              </div>
 
-                <!-- Company -->
-                <div class="col-4">
-                  <h5 class="fw-bold text-white mb-3">Company</h5>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >About us</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Contact</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Privacy</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-white text-decoration-none"
-                        >Terms</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+              <!-- About -->
+              <div class="col-4">
+                <h5
+                  class="fw-bold mb-3 fs-6 text-light fw-light text-decoration-none"
+                >
+                  About
+                </h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Contact</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Careers</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Company -->
+              <div class="col-4">
+                <h5
+                  class="fw-bold mb-3 fs-6 text-light fw-light text-decoration-none"
+                >
+                  Company
+                </h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Community</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Help center</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-7 text-light fw-light text-white text-decoration-none"
+                      >Support</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Row 3 -->
-        <div class="row" id="footer-row-3">
+        <div class="row pb-2" id="footer-row-3">
           <!-- Column left -->
           <div class="col-md-6 mb-2 mb-md-0">
-            <p class="mb-0 text-white">© Odoo. All rights reserved</p>
+            <p class="mb-0 fs-7 text-light fw-light">
+              © <span class="fw-bold">Odoo</span>. All rights reserved
+            </p>
           </div>
 
           <!-- Column right -->
           <div class="col-md-6 d-flex justify-content-md-end gap-3">
-            <a href="#" class="text-white text-decoration-none">Terms</a>
-            <a href="#" class="text-white text-decoration-none">Privacy</a>
-            <a href="#" class="text-white text-decoration-none">Cookies</a>
+            <a
+              href="#"
+              class="fs-7 text-light fw-light text-white text-decoration-none"
+              >Terms</a
+            >
+            <a
+              href="#"
+              class="fs-7 text-light fw-light text-white text-decoration-none"
+              >Privacy</a
+            >
+            <a
+              href="#"
+              class="fs-7 text-light fw-light text-white text-decoration-none"
+              >Cookies</a
+            >
           </div>
         </div>
       </div>
