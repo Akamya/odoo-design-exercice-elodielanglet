@@ -23,11 +23,13 @@
     <!-- Nav + Container -->
     <section class="header-hero">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-md">
+      <nav class="navbar navbar-expand-md text-white">
         <div
           class="container my-narrow-container border-bottom border-white pb-2 border-opacity-25"
         >
-          <a class="navbar-brand" href="home">Logo</a>
+          <a class="navbar-brand flex-shrink-0" href="home">
+            <img src="odoo-white.svg" alt="Odoo Logo" class="img-fluid w-25" />
+          </a>
 
           <button
             class="navbar-toggler ms-auto"
@@ -39,24 +41,28 @@
           </button>
 
           <div
-            class="collapse navbar-collapse justify-content-center order-md-2"
+            class="collapse navbar-collapse mx-auto order-md-2"
             id="main-nav"
           >
-            <ul class="navbar-nav">
+            <ul class="navbar-nav nav-hover">
               <li class="nav-item">
-                <a class="nav-link" href="#hero">Home</a>
+                <a class="nav-link text-white" href="#hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#intro">Products</a>
+                <a class="nav-link text-white" href="#intro">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#awards">Pages</a>
+                <a class="nav-link text-white" href="#awards">Pages</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#faq">App</a></li>
-              <li class="nav-item"><a class="nav-link" href="#faq">Docs</a></li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#faq">App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#faq">Docs</a>
+              </li>
 
               <li class="nav-item d-md-none">
-                <a class="nav-link" href="#">Sign in</a>
+                <a class="nav-link text-white" href="#">Sign in</a>
               </li>
               <li class="nav-item d-md-none">
                 <a class="btn btn-primary w-100 mt-2" href="#">Buy now</a>
@@ -64,9 +70,17 @@
             </ul>
           </div>
 
-          <div class="d-none d-md-flex align-items-center ms-auto order-md-3">
+          <div
+            class="d-none d-md-flex align-items-center ms-auto order-md-3 nav-hover"
+          >
             <a class="nav-link me-3" href="#">Sign in</a>
-            <a class="btn btn-primary" href="#">Buy now</a>
+            <a class="btn btn-light btn-custom" href="#"
+              ><ion-icon
+                name="bag-handle-outline"
+                class="text-primary"
+              ></ion-icon
+              >Buy now</a
+            >
           </div>
         </div>
       </nav>
