@@ -220,12 +220,24 @@
         <div class="row align-items-center mb-5">
           <!-- Left column -->
           <div class="col-md-6 d-flex flex-column align-items-center">
-            <div class="card p-3 w-100 intro-row1-container border shadow-sm">
-              <img
-                src="img_01.jpg"
-                alt="4 people in a work meeting"
-                class="intro-row1-image-container img-fluid border shadow-sm rounded"
-              />
+            <div
+              class="card p-3 ps-4 w-100 border shadow-sm custom-position-relative"
+            >
+              <div class="intro-row1-image-container">
+                <figure class="position-relative">
+                  <img
+                    src="img_01.jpg"
+                    alt="4 people in a work meeting"
+                    class="img-fluid border shadow-sm rounded"
+                  />
+                  <button
+                    class="btn btn-light btn-play-custom btn-sm border shadow-sm fs-7 small px-2 py-1"
+                  >
+                    Play Video <i class="fa-solid fa-play ms-1 fa-xs"></i>
+                  </button>
+                </figure>
+              </div>
+
               <h4 class="mb-3 fs-5">Awesome projects</h4>
 
               <div class="mb-4">
@@ -269,12 +281,12 @@
           <!-- Right column -->
           <div class="col-md-6 ps-5">
             <h6
-              class="tools-title d-inline-block px-3 py-1 text-white rounded bg-warning"
+              class="d-inline-block px-2 py-1 text-white fs-7 rounded-pill bg-warning"
             >
               Tools
             </h6>
-            <p class="mt-3 mb-2 fs-5">We build for designers and developers</p>
-            <p class="text-muted small mb-0">
+            <p class="mt-2 mb-2 fs-3">We build for designers and developers</p>
+            <p class="text-muted small">
               Get components and examples, including tons of variables that will
               help you grow your business.
             </p>

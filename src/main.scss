@@ -4,7 +4,7 @@
 
 // General Settings
 .my-narrow-container {
-  max-width: 60rem;
+  max-width: 65rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -57,7 +57,16 @@
   background-color: rgb(221, 221, 221);
 }
 
-.intro-row1-container {
+.btn-play-custom {
+  background-color: #ffffff;
+  border-radius: 0.25rem !important;
+  position: absolute;
+  z-index: 2;
+  top: 8%;
+  right: 5%;
+}
+
+.custom-position-relative {
   position: relative;
   z-index: 0;
 }
