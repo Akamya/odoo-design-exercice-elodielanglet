@@ -34,10 +34,20 @@
         }
       }
     }
+    .mt-5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+        margin: 0.5rem !important;
+      }
+    }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .header-hero {
     clip-path: none;
     padding-bottom: 2rem;
@@ -56,17 +66,6 @@
     .btn-custom {
       width: 100%;
       justify-content: center;
-    }
-
-    .mt-5 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-
-      img {
-        margin: 0.5rem !important;
-      }
     }
   }
 }
@@ -91,7 +90,9 @@
     .row {
       .col-md-6 {
         flex: 0 0 100%;
-        max-width: 100%;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
         padding-left: 15px !important;
         padding-right: 15px !important;
         margin-bottom: 2rem;
@@ -118,7 +119,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   #intro {
     .ps-5 {
       padding-left: 1rem !important;
@@ -214,6 +215,12 @@
       font-size: 0.7rem !important;
       padding: 0.25rem 0.5rem !important;
     }
+
+    .row {
+      .col-md-6 {
+        max-width: 100%;
+      }
+    }
   }
 
   .darkblue-box {
@@ -259,7 +266,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .bg-awards {
     padding-top: 2rem;
     padding-bottom: 3rem;
@@ -289,8 +296,12 @@
     .row-cols-md-5 {
       .col-6 {
         flex: 0 0 100%;
-        max-width: 100%;
         margin-top: 1rem !important;
+
+        a {
+          display: flex;
+          height: 100%;
+        }
       }
     }
 
@@ -308,7 +319,7 @@
 // ============================================
 // FAQ SECTION
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   #faq {
     .fs-3 {
       font-size: 1.5rem !important;
@@ -347,7 +358,7 @@
 // ============================================
 // ENGAGE SECTION
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   #engage {
     .fs-6 {
       font-size: 1.25rem !important;
@@ -376,7 +387,7 @@
 // FOOTER
 // ============================================
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .bg-footer {
     clip-path: none;
     padding-top: 2rem;
@@ -386,7 +397,7 @@
 // ============================================
 // GENERAL RESPONSIVE UTILITIES
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .my-narrow-container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -457,23 +468,18 @@
 // ============================================
 // NAVBAR RESPONSIVE
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .navbar {
     .navbar-brand img {
-      width: 35% !important;
-    }
-
-    .navbar-collapse {
-      margin-top: 1rem;
-      padding-top: 1rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      width: 100px !important;
     }
 
     .nav-item {
       padding: 0.5rem 0;
     }
-    .navbar-nav .nav-link {
-      font-size: 1.5rem;
+
+    .navbar-nav {
+      justify-content: center;
     }
   }
 }
@@ -481,7 +487,10 @@
 @media (max-width: 576px) {
   .navbar {
     .navbar-brand img {
-      width: 50% !important;
+      width: 80px !important;
+    }
+    .navbar-nav .nav-link {
+      font-size: 1.5rem;
     }
   }
 }
@@ -489,7 +498,7 @@
 // ============================================
 // BANK CARD RESPONSIVE
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .card-bottom-right {
     border-bottom-right-radius: 2rem !important;
   }
@@ -508,7 +517,7 @@
 // ============================================
 // APP STORE BUTTONS RESPONSIVE
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .d-flex.gap-3 {
     &:has(.btn-dark) {
       flex-direction: column;
