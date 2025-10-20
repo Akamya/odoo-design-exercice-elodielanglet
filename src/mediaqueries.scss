@@ -2,9 +2,25 @@
 // HERO SECTION
 // ============================================
 @media (max-width: 992px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .navbar {
+    margin-top: 0 !important;
+  }
+
   .header-hero {
     padding-bottom: 3rem;
     margin-bottom: 5rem;
+    margin-top: 0 !important;
   }
 
   #hero {
