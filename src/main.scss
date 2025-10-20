@@ -15,12 +15,12 @@
 
 .btn-custom {
   padding: 0.5rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 0.25rem !important;
+  font-size: $font-size-medium;
+  border-radius: $border-radius !important;
 }
 
 .fs-7 {
-  font-size: 0.8rem;
+  font-size: $font-size-small;
 }
 
 .dotted-underline {
@@ -58,8 +58,8 @@
 }
 
 .btn-play-custom-right {
-  background-color: #ffffff;
-  border-radius: 0.25rem !important;
+  background-color: $bg-body;
+  border-radius: $border-radius !important;
   position: absolute;
   z-index: 2;
   top: 8%;
@@ -67,8 +67,8 @@
 }
 
 .btn-play-custom-left {
-  background-color: #ffffff;
-  border-radius: 0.25rem !important;
+  background-color: $bg-body;
+  border-radius: $border-radius !important;
   position: absolute;
   z-index: 2;
   top: 5%;
@@ -93,7 +93,7 @@
   width: 2rem;
   height: 2rem;
   color: white;
-  font-size: 0.7rem;
+  font-size: $font-size-small;
 }
 
 .round-icon-2 {

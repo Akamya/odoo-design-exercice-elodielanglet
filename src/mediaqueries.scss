@@ -1,3 +1,5 @@
+@import "./variables";
+
 // ============================================
 // HERO SECTION
 // ============================================
@@ -60,7 +62,7 @@
     }
 
     .lead {
-      font-size: 1rem !important;
+      font-size: $font-size-medium !important;
     }
 
     .btn-custom {
@@ -77,7 +79,7 @@
     }
 
     .lead {
-      font-size: 0.95rem !important;
+      font-size: $font-size-medium !important;
     }
   }
 }
@@ -126,11 +128,11 @@
     }
 
     .fs-3 {
-      font-size: 1.5rem !important;
+      font-size: $font-size-bigger !important;
     }
 
     .fs-5 {
-      font-size: 1.25rem !important;
+      font-size: $font-size-big !important;
     }
 
     .row {
@@ -187,7 +189,7 @@
     }
 
     .fs-4 {
-      font-size: 1.5rem !important;
+      font-size: $font-size-bigger !important;
     }
 
     .btn-custom {
@@ -203,16 +205,16 @@
 @media (max-width: 576px) {
   #intro {
     .fs-3 {
-      font-size: 1.25rem !important;
+      font-size: $font-size-big !important;
     }
 
     .fs-5 {
-      font-size: 1.1rem !important;
+      font-size: $font-size-medium !important;
     }
 
     .btn-play-custom-right,
     .btn-play-custom-left {
-      font-size: 0.7rem !important;
+      font-size: $font-size-small !important;
       padding: 0.25rem 0.5rem !important;
     }
 
@@ -229,11 +231,11 @@
     border-bottom-left-radius: 30px;
 
     .fs-4 {
-      font-size: 1.25rem !important;
+      font-size: $font-size-big !important;
     }
 
     .small {
-      font-size: 0.85rem !important;
+      font-size: $font-size-small !important;
     }
   }
 
@@ -277,7 +279,7 @@
     }
 
     .fs-5 {
-      font-size: 1.25rem !important;
+      font-size: $font-size-big !important;
     }
   }
 }
@@ -320,7 +322,7 @@
 @media (max-width: 870px) {
   #faq {
     .fs-3 {
-      font-size: 1.5rem !important;
+      font-size: $font-size-bigger !important;
     }
 
     .col-md-6 {
@@ -329,7 +331,7 @@
     }
 
     .accordion-button {
-      font-size: 0.9rem;
+      font-size: $font-size-medium;
       padding: 0.75rem 1rem;
     }
   }
@@ -338,16 +340,16 @@
 @media (max-width: 576px) {
   #faq {
     .fs-3 {
-      font-size: 1.25rem !important;
+      font-size: $font-size-big !important;
     }
 
     .accordion-button {
-      font-size: 0.85rem;
+      font-size: $font-size-small;
       padding: 0.6rem 0.8rem;
 
       i,
       ion-icon {
-        font-size: 0.9rem;
+        font-size: $font-size-medium;
       }
     }
   }
@@ -359,7 +361,7 @@
 @media (max-width: 870px) {
   #engage {
     .fs-6 {
-      font-size: 1.25rem !important;
+      font-size: $font-size-big !important;
     }
 
     .d-flex.gap-3 {
@@ -376,7 +378,7 @@
 @media (max-width: 576px) {
   #engage {
     .fs-6 {
-      font-size: 1.1rem !important;
+      font-size: $font-size-medium !important;
     }
   }
 }
@@ -403,7 +405,7 @@
 
   .btn-custom {
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: $font-size-medium;
     width: auto;
     max-width: 10rem;
     margin-left: auto;
@@ -420,15 +422,15 @@
   }
 
   h3 {
-    font-size: 1.5rem !important;
+    font-size: $font-size-bigger !important;
   }
 
   h4 {
-    font-size: 1.25rem !important;
+    font-size: $font-size-big !important;
   }
 
   h5 {
-    font-size: 1.1rem !important;
+    font-size: $font-size-medium !important;
   }
 }
 
@@ -440,16 +442,16 @@
 
   .btn-custom {
     padding: 0.5rem 0.75rem;
-    font-size: 0.85rem;
+    font-size: $font-size-small;
     max-width: 10rem;
   }
 
   .icon-left {
-    font-size: 0.75rem !important;
+    font-size: $font-size-small !important;
   }
 
   .rounded-pill {
-    font-size: 0.7rem !important;
+    font-size: $font-size-small !important;
     padding: 0.25rem 0.75rem !important;
   }
 
@@ -488,7 +490,7 @@
       width: 80px !important;
     }
     .navbar-nav .nav-link {
-      font-size: 1.5rem;
+      font-size: $font-size-bigger;
     }
   }
 }
@@ -535,15 +537,15 @@
     padding: 0.75rem 1rem !important;
 
     i {
-      font-size: 1.5rem !important;
+      font-size: $font-size-bigger !important;
     }
 
     .fs-5 {
-      font-size: 1rem !important;
+      font-size: $font-size-medium !important;
     }
 
     small {
-      font-size: 0.7rem !important;
+      font-size: $font-size-small !important;
     }
   }
 }

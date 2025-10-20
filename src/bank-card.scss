@@ -35,14 +35,14 @@
   align-items: center;
   width: 2.75rem;
   height: 1.5rem;
-  border-radius: 0.25rem;
+  border-radius: $border-radius;
   background: $green;
-  font-size: 0.7rem !important;
+  font-size: $font-size-small !important;
 }
 
 /* Card number */
 .bank-card .card-number {
-  font-size: 1.2rem;
+  font-size: $font-size-big;
   letter-spacing: 0.1rem;
   font-weight: 600;
   text-shadow: 0 0.06rem 0 rgba(0, 0, 0, 0.15);
@@ -75,6 +75,6 @@
 /* values (holder, expiry) */
 .bank-card .value {
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: $font-size-small;
   letter-spacing: 0.04rem;
 }
