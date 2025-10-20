@@ -89,6 +89,18 @@
       }
     }
   }
+
+  .intro-row1-image-container {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .custom-position-relative {
+    padding-top: 1rem !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -166,6 +178,10 @@
       width: 100%;
     }
   }
+
+  .intro-row1-image-container {
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -197,6 +213,10 @@
     .small {
       font-size: 0.85rem !important;
     }
+  }
+
+  .intro-row1-image-container {
+    margin-bottom: 1rem;
   }
 }
 
@@ -346,7 +366,6 @@
     clip-path: none;
   }
 }
-
 // ============================================
 // GENERAL RESPONSIVE UTILITIES
 // ============================================
