@@ -78,18 +78,3 @@
   font-size: 0.8rem;
   letter-spacing: 0.04rem;
 }
-
-/* Responsive tweaks */
-@media (max-width: 36rem) {
-  .bank-card {
-    padding: 0.875rem;
-    border-radius: 0.75rem;
-  }
-  .bank-card .card-number {
-    font-size: 1rem;
-  }
-  .bank-card .chip {
-    width: 2.5rem;
-    height: 1.625rem;
-  }
-}
