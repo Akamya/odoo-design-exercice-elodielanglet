@@ -30,7 +30,6 @@
         max-width: 100%;
 
         &:first-child {
-          margin-bottom: 3rem;
           text-align: center;
         }
       }
@@ -380,6 +379,8 @@
 @media (max-width: 768px) {
   .bg-footer {
     clip-path: none;
+    padding-top: 2rem;
+    margin-top: 5rem;
   }
 }
 // ============================================
@@ -394,6 +395,11 @@
   .btn-custom {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
+    width: auto;
+    max-width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   h1 {
@@ -426,6 +432,7 @@
   .btn-custom {
     padding: 0.5rem 0.75rem;
     font-size: 0.85rem;
+    max-width: 10rem;
   }
 
   .icon-left {
@@ -505,7 +512,8 @@
       gap: 1rem !important;
 
       .btn-dark {
-        width: 100%;
+        width: 50%;
+        margin: 0 auto;
         justify-content: center;
       }
     }
