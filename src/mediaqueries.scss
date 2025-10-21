@@ -20,7 +20,7 @@
   }
 
   .header-hero {
-    padding-bottom: 3rem;
+    padding-bottom: calc(3 * $padding-base-spacer);
     margin-bottom: calc(5 * $margin-base-spacer);
     margin-top: 0 !important;
   }
@@ -52,7 +52,7 @@
 @media (max-width: 870px) {
   .header-hero {
     clip-path: none;
-    padding-bottom: 2rem;
+    padding-bottom: calc(2 * $padding-base-spacer);
     margin-bottom: calc(3 * $margin-base-spacer);
   }
 
@@ -117,14 +117,14 @@
   }
 
   .custom-position-relative {
-    padding-top: 1rem !important;
+    padding-top: $padding-base-spacer !important;
   }
 }
 
 @media (max-width: 870px) {
   #intro {
     .ps-5 {
-      padding-left: 1rem !important;
+      padding-left: $padding-base-spacer !important;
     }
 
     .fs-3 {
@@ -250,7 +250,7 @@
 @media (max-width: 992px) {
   .bg-awards {
     clip-path: none;
-    padding-bottom: 5rem;
+    padding-bottom: calc(5 * $padding-base-spacer);
     margin-bottom: calc(3 * $margin-base-spacer);
   }
 
@@ -270,12 +270,12 @@
 
 @media (max-width: 870px) {
   .bg-awards {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: calc(2 * $padding-base-spacer);
+    padding-bottom: calc(3 * $padding-base-spacer);
     margin-top: calc(3 * $margin-base-spacer);
 
     .p-5 {
-      padding: 2rem !important;
+      padding: calc(2 * $padding-base-spacer) !important;
     }
 
     .fs-5 {
@@ -287,10 +287,10 @@
 @media (max-width: 576px) {
   .bg-awards {
     clip-path: none;
-    padding-bottom: 2rem;
+    padding-bottom: calc(2 * $padding-base-spacer);
 
     .p-5 {
-      padding: 1.5rem !important;
+      padding: calc(1.5 * $padding-base-spacer) !important;
     }
   }
 
@@ -390,7 +390,7 @@
 @media (max-width: 870px) {
   .bg-footer {
     clip-path: none;
-    padding-top: 2rem;
+    padding-top: calc(2 * $padding-base-spacer);
     margin-top: calc(5 * $margin-base-spacer);
   }
 }
@@ -399,8 +399,8 @@
 // ============================================
 @media (max-width: 870px) {
   .my-narrow-container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: calc(1.5 * $padding-base-spacer);
+    padding-right: calc(1.5 * $padding-base-spacer);
   }
 
   .btn-custom {
@@ -436,8 +436,8 @@
 
 @media (max-width: 576px) {
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: $padding-base-spacer;
+    padding-right: $padding-base-spacer;
   }
 
   .btn-custom {
@@ -456,7 +456,7 @@
   }
 
   .card {
-    padding: 1rem !important;
+    padding: $padding-base-spacer !important;
   }
 
   section {

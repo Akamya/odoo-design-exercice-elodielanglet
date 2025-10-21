@@ -47,7 +47,7 @@
     0 100%,
     // bottom left
   );
-  padding-bottom: 5rem;
+  padding-bottom: calc(5 * $padding-base-spacer);
   margin-bottom: calc(10 * $margin-base-spacer);
 }
 
@@ -133,7 +133,7 @@
 .profile-pics-img {
   display: flex;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 0.5rem;
+  padding-bottom: calc(0.5 * $padding-base-spacer);
 }
 
 .profile-pics-img img {
@@ -169,7 +169,7 @@
     0 100%,
     // bottom left
   );
-  padding-bottom: 10rem;
+  padding-bottom: calc(10 * $padding-base-spacer);
   margin-bottom: calc(5 * $margin-base-spacer);
   margin-top: calc(6 * $margin-base-spacer);
 }
@@ -196,7 +196,7 @@
     0 100%,
     // bottom left
   );
-  padding-top: 8rem;
+  padding-top: calc(8 * $padding-base-spacer);
   margin-top: calc(10 * $margin-base-spacer);
 }
 
