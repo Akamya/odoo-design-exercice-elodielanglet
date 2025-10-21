@@ -48,7 +48,7 @@
     // bottom left
   );
   padding-bottom: 5rem;
-  margin-bottom: 10rem;
+  margin-bottom: calc(10 * $margin-base-spacer);
 }
 
 // Intro
@@ -140,7 +140,7 @@
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
-  margin-right: -1rem;
+  margin-right: calc(-1 * $margin-base-spacer);
   border: 3px solid #ffffff;
 }
 
@@ -170,8 +170,8 @@
     // bottom left
   );
   padding-bottom: 10rem;
-  margin-bottom: 5rem;
-  margin-top: 6rem;
+  margin-bottom: calc(5 * $margin-base-spacer);
+  margin-top: calc(6 * $margin-base-spacer);
 }
 
 .card-hover {
@@ -197,7 +197,7 @@
     // bottom left
   );
   padding-top: 8rem;
-  margin-top: 10rem;
+  margin-top: calc(10 * $margin-base-spacer);
 }
 
 .footer-hover a:hover,

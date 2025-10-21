@@ -21,7 +21,7 @@
 
   .header-hero {
     padding-bottom: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: calc(5 * $margin-base-spacer);
     margin-top: 0 !important;
   }
 
@@ -53,7 +53,7 @@
   .header-hero {
     clip-path: none;
     padding-bottom: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: calc(3 * $margin-base-spacer);
   }
 
   #hero {
@@ -97,7 +97,7 @@
         margin-left: auto;
         padding-left: 15px !important;
         padding-right: 15px !important;
-        margin-bottom: 2rem;
+        margin-bottom: calc(2 * $margin-base-spacer);
       }
 
       &.align-items-center {
@@ -113,7 +113,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    margin-bottom: 2rem;
+    margin-bottom: calc(2 * $margin-base-spacer);
   }
 
   .custom-position-relative {
@@ -136,14 +136,14 @@
     }
 
     .row {
-      margin-bottom: 2rem !important;
+      margin-bottom: calc(2 * $margin-base-spacer) !important;
 
       &.mb-5 {
-        margin-bottom: 2rem !important;
+        margin-bottom: calc(2 * $margin-base-spacer) !important;
       }
 
       &.mt-5 {
-        margin-top: 2rem !important;
+        margin-top: calc(2 * $margin-base-spacer) !important;
       }
     }
   }
@@ -156,11 +156,11 @@
 
     .card {
       &.mt-5 {
-        margin-top: 1rem !important;
+        margin-top: $margin-base-spacer !important;
       }
 
       &.mb-5 {
-        margin-bottom: 1rem !important;
+        margin-top: $margin-base-spacer !important;
       }
     }
 
@@ -179,7 +179,7 @@
         text-align: center;
 
         &:first-child {
-          margin-bottom: 1.5rem;
+          margin-bottom: calc(1.5 * $margin-base-spacer);
         }
 
         &:last-child {
@@ -198,7 +198,7 @@
   }
 
   .intro-row1-image-container {
-    margin-bottom: 1.5rem;
+    margin-bottom: calc(1.5 * $margin-base-spacer);
   }
 }
 
@@ -240,7 +240,7 @@
   }
 
   .intro-row1-image-container {
-    margin-bottom: 1rem;
+    margin-top: $margin-base-spacer;
   }
 }
 
@@ -249,9 +249,9 @@
 // ============================================
 @media (max-width: 992px) {
   .bg-awards {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: none;
     padding-bottom: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: calc(3 * $margin-base-spacer);
   }
 
   #awards {
@@ -261,7 +261,7 @@
         max-width: 50%;
 
         &.mt-5 {
-          margin-top: 1rem !important;
+          margin-top: $margin-base-spacer !important;
         }
       }
     }
@@ -272,7 +272,7 @@
   .bg-awards {
     padding-top: 2rem;
     padding-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: calc(3 * $margin-base-spacer);
 
     .p-5 {
       padding: 2rem !important;
@@ -298,7 +298,7 @@
     .row-cols-md-5 {
       .col-6 {
         flex: 0 0 100%;
-        margin-top: 1rem !important;
+        margin-top: $margin-base-spacer !important;
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -391,7 +391,7 @@
   .bg-footer {
     clip-path: none;
     padding-top: 2rem;
-    margin-top: 5rem;
+    margin-top: calc(5 * $margin-base-spacer);
   }
 }
 // ============================================
@@ -460,8 +460,8 @@
   }
 
   section {
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
+    margin-top: calc(2 * $margin-base-spacer) !important;
+    margin-bottom: calc(2 * $margin-base-spacer) !important;
   }
 }
 
