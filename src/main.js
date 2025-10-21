@@ -2,7 +2,3 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./main.scss";
 import "./mediaqueries.scss";
-
-document.querySelector("#app").innerHTML = `
-  
-`;
